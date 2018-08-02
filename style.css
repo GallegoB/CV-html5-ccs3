@@ -1,12 +1,66 @@
-h1{
-	color: blue;
-}
-h2{
-	color: silver;
-}
-.title
+body
 {
+	background-image:url("images/fond-black.jpg");
+}
+h1
+{
+	font-family: 'Capture_it', Impact;
+	color: blue;
+	font-size: 4.3em;
+}
+h2
+{
+	font-family: 'Arial black', Impact;
+	color: white;
+	font-size: 2.4em;
+}
+h3
+{
+	color: deepskyblue;
+	font-size: 2em;
+}
+ul{
+	color: white;
+	font-style:  left;
+	font-size: 1.2em;
+}
+@font-face{
+	font-family: 'Capture_it';
+	src: url('Capture_it.ttf');
+}
+
+.image{
+	border: inset;
+	border-color: silver;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 50%;
+	box-shadow: 6px 6px 6px silver;
+	margin-right: 30px;
+}
+.box
+{
+	
+}
+.top-box
+{
+ text-align: center;
+ min-width: 2px;
+}
+.image-box
+{
+	float: right;
+
+}
+.titre-box
+{
+	width: 80%;
+	float: left;
 	color: silver;
-	font-style: monospace;
-	font-size: large;
+	text-align: center;
+}
+.body-box{
+	margin-top: 250px;
+	padding: 10px;
+	position: absolute;
 }
