@@ -1,8 +1,3 @@
-
-body
-{
-	/*background-image:url("images/fond-black.jpg");*/
-}
 h1
 {
 	font-family: 'Capture_it', Impact;
@@ -35,12 +30,7 @@ ul{
 {
     display: flex;
     background-color: Cornsilk;
-  	margin: 0;
-  	height: 100%;
-    
-}
-.element{
-
+  	margin: 0;    
 }
 .lisere{
 	background-image:url("images/fond-black.jpg");
@@ -60,11 +50,6 @@ ul{
 .corp{
 	display: flex;
 	flex-direction: column;
-	/*flex-wrap: nowrap;*/
-}
-.box
-{
-	
 }
 .top-box
 {	 
@@ -73,7 +58,6 @@ ul{
 }
 .image-box
 {
-
     margin-top: 2px;
 }
 .titre-box
@@ -82,13 +66,10 @@ ul{
 	float: left;
 	color: #696969;
 	text-align: center;
-
 }
 .body-box{
 	display: flex;
     justify-content: space-around;
-    /*flex-wrap: nowrap;*/
-
 }
 .element:nth-child(1)
 {
@@ -101,4 +82,14 @@ ul{
 .element:nth-child(3)
 {
     flex: 1;
+}
+
+@media screen and (max-width: 1024px)
+{
+ 	.lisere{
+ 	   display: none;
+ 	}
+ 	.body-box{
+ 		flex-direction: column;
+ 	}
 }
